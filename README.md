@@ -12,7 +12,7 @@ Supermarket Inventory Manager is a web-based application designed to help superm
 - **Delete Items**: Remove items that are no longer available from the inventory list.
 
 ## Link to the deployed copy of your app
-Since I can't connect to i6 sever but it works on my local computer, here is the screenshot of web pages.
+Since I can't connect to i6 sever but it works on my local computer, here is the screenshot of web pages. (.env file is already posted in the *discord sh6382 channel*)
 
 This is the home page, providing brief explanations of the app and its functions.
 ![homepage](images/home.png)
