@@ -1,11 +1,19 @@
 {% extends 'base.html' %}
 
-{% block container %}
-<h2>Welcome!</h2>
-<p>Welcome to the Flask app. This is the home page. Here are a few links to example pages you might find interesting.
-    <ul>
-        <li><a href="{{ url_for('read')}}">a page that displays information pulled from a MongoDB database collection</a></li>
-        <li><a href="{{ url_for('create')}}">a page with a form you can submit to create a new record in a MongoDB collection</a></li>
-    </ul>
+{% block content %}
+<h1>Welcome to my supermarket inventory!</h1>
+<p class="lead">
+  Welcome to the Supermarket Inventory Management App! This tool is designed to help you keep track of your supermarket inventory with ease. Below you'll find the core functionalities that will simplify your inventory management process:
 </p>
+
+<ul>
+  <li><strong>Add Items:</strong> Easily add new products to your inventory with detailed information such as name, price, and quantity.</li>
+  <li><strong>View Inventory:</strong> All items in your inventory are listed below with the most up-to-date information.</li>
+  <li><strong>Edit Item Details:</strong> Update the details of existing inventory items as needed.</li>
+  <li><strong>Delete Items:</strong> Remove items from your inventory that are no longer available or needed.</li>
+</ul>
+
+<p>Get started by adding a new item or viewing through your current inventory using the navigation bar above.</p>
+
+
 {% endblock %}
